@@ -56,7 +56,7 @@
                 
             </div>
 
-            <div class="col-md-4 main-color ticket-container  rounded-4 position-relative">
+            <div class="col-md-4 main-color ticket-container  rounded-4 position-relative ticket-left">
               <img src="images/Mask group (3).png" class="w-100 h-100" alt="">
               <div class=" position-absolute top-0 bottom-0 start-0 end-0">
                 <div class="d-flex justify-content-center align-items-center me-5 gap-5">
@@ -108,21 +108,31 @@
 
 <section class="w-90 py-3 d-flex align-items-center justify-content-between serch-section">
   <div class="d-flex align-items-center ">
-    <p class="fw-semibold fs-6 mt-3">مبيعات التذاكر</p>
-    <div class="d-flex align-items-center bg-white px-2 py-1 rounded-3 me-3 btn-input-outline">
-      <img src="images/search-normal.svg" alt="">
-      <input type="text" class="px-3" placeholder="بحث في ">
+    <div class="d-flex align-items-center search-sm">
+        <p class="fw-semibold fs-6 mt-3">مبيعات التذاكر</p>
+        <div class="d-flex">
+          <div class="d-flex align-items-center bg-white px-2 py-1 rounded-3 me-3 btn-input-outline search">
+            <img src="images/search-normal.svg" alt="">
+            <input type="text" class="" placeholder="بحث في " class="search">
+          </div>
+    
+          <div class="d-flex align-items-center">
+            <span class="d-flex justify-content-center align-items-center btn-input-outline rounded-3 bg-white py-2 px-2 mx-2 cursor">
+              <img src="images/11.svg" alt="">
+            </span>
+            <span class="d-flex justify-content-center align-items-center btn-input-outline rounded-3 bg-white py-2 px-2 cursor">
+              <img src="images/net.svg" alt="">
+            </span>
+          </div>
+        </div>
+   
+  
     </div>
-    <span class="d-flex justify-content-center align-items-center btn-input-outline rounded-3 bg-white py-2 px-2 mx-2 cursor">
-      <img src="images/11.svg" alt="">
-    </span>
-    <span class="d-flex justify-content-center align-items-center btn-input-outline rounded-3 bg-white py-2 px-2 cursor">
-      <img src="images/net.svg" alt="">
-    </span>
-  </div>
+    </div>
+    
   
   <div>
-    <div class="d-flex align-items-center gap-3">
+    <div class="d-flex align-items-center gap-3 togle-contact">
       <label class="toggle" for="myToggle">
         <input class="toggle__input" name="" type="checkbox" id="myToggle">
         <div class="toggle__fill"></div>
@@ -137,7 +147,7 @@
 
 </section>
 
-<section class="w-90">
+<section class="w-90 py-3">
    <div class="bg-body p-2 rounded-2">
     <div class="bg-body p-1 rounded-2 table-container overflow-hidden ">
         <table class=" table table-responsive my-table  ">

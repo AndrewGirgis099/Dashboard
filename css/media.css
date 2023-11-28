@@ -40,6 +40,24 @@
         display: flex;
         flex-direction: column;
     }
+    .togle-contact{
+        margin-top: 20px;
+        margin-right: 20px;
+    }
 
+    .search{
+        width: 200px !important;
+    }
     
+    .search-sm{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .circle1{
+        transform: translateX(+55%);
+    }
+    .circle2{
+        transform: translateX(-55%);
+    }
 }
