@@ -1,0 +1,145 @@
+
+
+body{
+    background-color: #edf1f5;
+    font-family: 'Noto Sans Arabic', sans-serif;
+}
+:root{
+    --main-color:#8A74F9;
+    --secondary-color:#ABAAB1;
+    --trasparant:#00000000;
+    --link:rgb(112, 111, 111);
+}
+
+.w-90{
+    width: 90%;
+    margin: auto;
+}
+/* general style  */
+
+.cursor{
+    cursor: pointer;
+}
+.secondary-color{
+    color:#ABAAB1 ;
+}
+.font-11{
+    font-size: 12px;
+}
+.font-13{
+    font-size: 14px;
+}
+
+.font-14{
+    font-size: 16px;
+}
+
+.main-color{
+    background-color: #8A74F9 !important;
+}
+
+.text-main-color{
+    color: #8A74F9 !important;
+}
+
+.btn-subs{
+    border-color: #fff;
+    border-radius: 5px;
+    box-shadow: none !important;
+}
+
+.discount{
+    line-height: 34px;
+}
+
+
+
+.arrow{
+    width: fit-content;
+    background-color: #E7EAED;
+    font-size: 12px;
+}
+.edit-btn{
+    border: 1px solid rgba(169, 169, 169, 0.336);
+}
+
+thead{
+    background: #edf1f5 !important;
+}
+thead tr td{
+    color: var(--secondary-color) !important;
+    background: #edf1f5;
+    background: #edf1f5 !important;
+    
+}
+
+.ticket{
+    width: 30px;
+    height: 30px;
+    background-color: #e7eaed5d;
+}
+
+
+
+.pagination {
+    --bs-pagination-color: var(--link);
+    --bs-pagination-border-color: var(--trasparant);
+}
+
+.apexcharts-text tspan{
+    /* display: none; */
+}
+.apexcharts-toolbar{
+    display: none !important;
+}
+
+.apexcharts-pan-icon.apexcharts-selected svg {
+    stroke: #8A74F9 !important
+}
+.apexcharts-canvas .apexcharts-reset-zoom-icon.apexcharts-selected svg,.apexcharts-canvas .apexcharts-selection-icon.apexcharts-selected svg,.apexcharts-canvas .apexcharts-zoom-icon.apexcharts-selected svg {
+    fill: #8A74F9 !important
+}
+
+.apexcharts-xaxis-tick{
+    background-color: #8A74F9 !important;
+}
+
+.apexcharts-series{
+    background-color:#8A74F9 !important ;
+    color: #8A74F9 !important;
+}
+
+.apexcharts-tooltip .apexcharts-theme-light{
+    background-color: #8A74F9 !important;
+}
+
+.link{
+    width: fit-content;
+    margin: auto;
+}
+
+.middle-circle-line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -20px;
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    background-color:#edf1f5 ;
+    border-radius: 50%;
+   
+}
+.circle1{
+    transform: translateX(+50%);
+}
+.circle2{
+    transform: translateX(-50%);
+}
+
+.line{
+    width: 110%;
+    height: 2px;
+    border: 1px dashed #FFFFFF;
+}

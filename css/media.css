@@ -1,0 +1,35 @@
+@media only screen and (max-width: 992px) {
+    .table-container {
+        overflow-x: scroll !important;
+        margin: auto;
+        
+    }
+
+    .qr-img{
+        width: 30px !important;
+    }
+    .ticket-container{
+        min-width: 100% !important;
+    }
+    #chart{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .table-container {
+        overflow-x: scroll !important;
+        margin: auto;
+    }
+    .ticket-container{
+        min-height: 400px !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .table-container {
+        overflow-x: scroll !important;
+        margin: auto;
+    }
+
+    
+}
