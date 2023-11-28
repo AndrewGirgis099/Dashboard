@@ -17,6 +17,9 @@ body{
 }
 /* general style  */
 
+::placeholder{
+    color:#ABAAB1 ;
+}
 .cursor{
     cursor: pointer;
 }
@@ -51,7 +54,13 @@ body{
 .discount{
     line-height: 34px;
 }
+.secand-color{
+    color: #92a1adc7;
+}
 
+.btn-input-outline{
+    border: 1px solid #92a1ad67;
+}
 
 
 .arrow{
@@ -142,4 +151,60 @@ thead tr td{
     width: 110%;
     height: 2px;
     border: 1px dashed #FFFFFF;
+}
+
+input{
+    border-color: transparent !important;
+    box-shadow: transparent;
+    outline: none;
+}
+
+
+
+
+
+
+/* toggle btn */
+
+.toggle {
+    --width: 40px;
+    --height: calc(var(--width) / 2);
+    --border-radius: calc(var(--height) / 2);
+
+    display: inline-block;
+    cursor: pointer;
+}
+
+.toggle__input {
+    display: none;
+}
+
+.toggle__fill {
+    position: relative;
+    width: var(--width);
+    height: var(--height);
+    border-radius: var(--border-radius);
+    background: #8A74F9;
+    transition: background 0.2s;
+}
+
+.toggle__fill::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: var(--height);
+    width: var(--height);
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    border-radius: var(--border-radius);
+    transition: transform 0.2s;
+}
+
+.toggle__input:checked ~ .toggle__fill {
+    background: #dddddd;
+}
+
+.toggle__input:checked ~ .toggle__fill::after {
+    transform: translateX(var(--height));
 }

@@ -23,12 +23,22 @@
     .ticket-container{
         min-height: 400px !important;
     }
+    .serch-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start !important;
+    }
 }
 
 @media only screen and (max-width: 600px) {
     .table-container {
         overflow-x: scroll !important;
         margin: auto;
+    }
+    .serch-section{
+        display: flex;
+        flex-direction: column;
     }
 
     
