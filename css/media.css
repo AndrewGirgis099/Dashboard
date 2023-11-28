@@ -55,9 +55,16 @@
     }
 
     .circle1{
-        transform: translateX(+60%);
+        transform: translateX(+0%);
+        border-radius: 50% 0% 0% 50%;
+        /* display: none; */
     }
     .circle2{
-        transform: translateX(-60%);
+        transform: translateX(-0%);
+        border-radius: 0% 50% 50% 0%;
+    }
+
+    .w-80{
+        width: 80% !important;
     }
 }
