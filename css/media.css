@@ -55,9 +55,9 @@
     }
 
     .circle1{
-        transform: translateX(+55%);
+        transform: translateX(+60%);
     }
     .circle2{
-        transform: translateX(-55%);
+        transform: translateX(-60%);
     }
 }
