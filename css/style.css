@@ -208,3 +208,8 @@ input{
 .toggle__input:checked ~ .toggle__fill::after {
     transform: translateX(var(--height));
 }
+
+.my-filter-sm{
+    display: none !important;
+}
+

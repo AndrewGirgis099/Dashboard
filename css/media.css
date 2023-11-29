@@ -43,6 +43,7 @@
     .togle-contact{
         margin-top: 20px;
         margin-right: 20px;
+        justify-content: start !important;
     }
 
     .search{
@@ -66,5 +67,13 @@
 
     .w-80{
         width: 80% !important;
+    }
+
+    .my-filter-sm{
+        display: none !important;
+    }
+    
+    .my-filter{
+        display: none !important;
     }
 }
