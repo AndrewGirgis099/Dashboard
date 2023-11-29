@@ -17,14 +17,15 @@ let toggle = document.querySelector(".toggle");
 
         function copy(text) {
             navigator.clipboard.writeText(text);
-            window.alert("copied")
+            window.alert("تم النسخ")
           }
 
 
 
 
 
-
+          const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+          const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
 
 
 

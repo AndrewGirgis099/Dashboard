@@ -25,6 +25,19 @@ html{
 ::placeholder{
     color:#ABAAB1 ;
 }
+.btn-hover:hover{
+    background: #d5ccff !important;
+    transition: 0.5s;
+}
+.btn-hover-dark:hover{
+    background: #5c547e !important;
+    transition: 0.5s;
+}
+.btn-hover-page:hover{
+    background: #8A74F9 !important;
+    transition: 0.5s;
+    color: #fff;
+}
 .cursor{
     cursor: pointer;
 }
@@ -93,6 +106,9 @@ thead tr td{
     background-color: #e7eaed5d;
 }
 
+.body-color{
+    background: #edf1f5 !important;
+}
 
 
 .pagination {
