@@ -3,6 +3,11 @@
 body{
     background-color: #edf1f5;
     font-family: 'Noto Sans Arabic', sans-serif;
+    overflow-x: hidden !important;
+}
+html{
+    overflow-x: hidden !important;
+
 }
 :root{
     --main-color:#8A74F9;
@@ -212,4 +217,23 @@ input{
 .my-filter-sm{
     display: none !important;
 }
+
+
+/*********/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

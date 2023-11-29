@@ -13,3 +13,21 @@ let toggle = document.querySelector(".toggle");
 
 
         }
+
+
+        function copy(text) {
+            navigator.clipboard.writeText(text);
+            window.alert("copied")
+          }
+
+
+
+
+
+
+
+
+
+
+
+        

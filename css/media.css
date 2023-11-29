@@ -76,4 +76,8 @@
     .my-filter{
         display: none !important;
     }
+
+    .view-page{
+        margin-right: 55px !important;
+    }
 }
